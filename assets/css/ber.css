@@ -1,0 +1,164 @@
+.bercrumb {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Segoe UI Symbol;
+    line-height: 1.25;
+    overflow: hidden;
+    padding-right: 8px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.jtg-box .bercrumb {
+    display: block;
+    float: right;
+    margin-left: 4px;
+}
+.bercrumb div {
+    float: left;
+}
+.bercrumb div span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 0 2px 15px;
+    background-color: #000000;
+    position: relative;
+    display: block;
+    float: left;
+    pointer-events: none;
+    cursor: default;
+}
+.bercrumb div span:before,
+.bercrumb div span:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 100%;
+}
+
+.bercrumb div span:after {
+    border-left: 8px solid #000000;
+    z-index: 2;
+}
+.bercrumb div span:before {
+    border-left: 8px solid #ffffff;
+    margin-left: 3px;
+    z-index: 1;
+}
+.bercrumb div.ber-value span:before {
+    border-left: 8px solid transparent;
+}
+.bercrumb div:first-child span {
+    padding-left: 4px;
+}
+
+
+
+.ber-a1 div:nth-child(2) span,
+.ber-a2 div:nth-child(2) span,
+.ber-a3 div:nth-child(2) span,
+.ber-a1 div:last-child span,
+.ber-a2 div:last-child span,
+.ber-a3 div:last-child span {
+    background-color: #01A554;
+}
+.ber-a1 div:nth-child(2) span:after,
+.ber-a2 div:nth-child(2) span:after,
+.ber-a3 div:nth-child(2) span:after,
+.ber-a1 div:last-child span:after,
+.ber-a2 div:last-child span:after,
+.ber-a3 div:last-child span:after {
+    border-left-color: #01A554;
+}
+
+.ber-b1 div:nth-child(2) span,
+.ber-b2 div:nth-child(2) span,
+.ber-b3 div:nth-child(2) span,
+.ber-b1 div:last-child span,
+.ber-b2 div:last-child span,
+.ber-b3 div:last-child span {
+    background-color: #51B647;
+}
+.ber-b1 div:nth-child(2) span:after,
+.ber-b2 div:nth-child(2) span:after,
+.ber-b3 div:nth-child(2) span:after,
+.ber-b1 div:last-child span:after,
+.ber-b2 div:last-child span:after,
+.ber-b3 div:last-child span:after {
+    border-left: 6px solid #51B647;
+}
+
+.ber-c1 div:nth-child(2) span,
+.ber-c2 div:nth-child(2) span,
+.ber-c3 div:nth-child(2) span,
+.ber-c1 div:last-child span,
+.ber-c2 div:last-child span,
+.ber-c3 div:last-child span {
+    background-color: #C0D631;
+    color: #000000;
+}
+.ber-c1 div:nth-child(2) span:after,
+.ber-c2 div:nth-child(2) span:after,
+.ber-c3 div:nth-child(2) span:after,
+.ber-c1 div:last-child span:after,
+.ber-c2 div:last-child span:after,
+.ber-c3 div:last-child span:after {
+    border-left-color: #C0D631;
+}
+
+.ber-d1 div:nth-child(2) span,
+.ber-d2 div:nth-child(2) span,
+.ber-d1 div:last-child span,
+.ber-d2 div:last-child span {
+    background-color: #FDF101;
+    color: #000000;
+}
+.ber-d1 div:nth-child(2) span:after,
+.ber-d2 div:nth-child(2) span:after,
+.ber-d1 div:last-child span:after,
+.ber-d2 div:last-child span:after {
+    border-left-color: #FDF101;
+}
+
+.ber-e1 div:nth-child(2) span,
+.ber-e2 div:nth-child(2) span,
+.ber-e1 div:last-child span,
+.ber-e2 div:last-child span {
+    background-color: #FBB814;
+    color: #000000;
+}
+.ber-e1 div:nth-child(2) span:after,
+.ber-e2 div:nth-child(2) span:after,
+.ber-e1 div:last-child span:after,
+.ber-e2 div:last-child span:after {
+    border-left-color: #FBB814;
+}
+
+.ber-f div:nth-child(2) span,
+.ber-f div:last-child span {
+    background-color: #F17020;
+    color: #000000;
+}
+.ber-f div:nth-child(2) span:after,
+.ber-f div:last-child span:after {
+    border-left-color: #F17020;
+}
+
+.ber-g div:nth-child(2) span,
+.ber-g div:last-child span {
+    background-color: #EC1B24;
+}
+.ber-g div:nth-child(2) span:after,
+.ber-g div:last-child span:after {
+    border-left-color: #EC1B24;
+}
+
+.bercrumb.ber-request {
+    display: none;
+}
